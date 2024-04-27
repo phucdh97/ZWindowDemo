@@ -13,6 +13,16 @@
 		E879BCBD2BDD09E4007F39D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E879BCBB2BDD09E4007F39D7 /* Main.storyboard */; };
 		E879BCBF2BDD09E5007F39D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E879BCBE2BDD09E5007F39D7 /* Assets.xcassets */; };
 		E879BCC22BDD09E5007F39D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E879BCC02BDD09E5007F39D7 /* LaunchScreen.storyboard */; };
+		E879BCD52BDD0AB6007F39D7 /* CallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879BCCA2BDD0AB6007F39D7 /* CallService.swift */; };
+		E879BCD62BDD0AB6007F39D7 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879BCCB2BDD0AB6007F39D7 /* CallViewController.swift */; };
+		E879BCD72BDD0AB6007F39D7 /* ExtraWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879BCCC2BDD0AB6007F39D7 /* ExtraWindow.swift */; };
+		E879BCD82BDD0AB6007F39D7 /* UXDeivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879BCCE2BDD0AB6007F39D7 /* UXDeivce.swift */; };
+		E879BCD92BDD0AB6007F39D7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879BCCF2BDD0AB6007F39D7 /* DetailViewController.swift */; };
+		E879BCDA2BDD0AB6007F39D7 /* ViewController+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879BCD02BDD0AB6007F39D7 /* ViewController+Rotation.swift */; };
+		E879BCDB2BDD0AB6007F39D7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879BCD12BDD0AB6007F39D7 /* MainViewController.swift */; };
+		E879BCDC2BDD0AB6007F39D7 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879BCD22BDD0AB6007F39D7 /* SubViewController.swift */; };
+		E879BCDD2BDD0AB6007F39D7 /* MainAppWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879BCD32BDD0AB6007F39D7 /* MainAppWindow.swift */; };
+		E879BCDE2BDD0AB6007F39D7 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879BCD42BDD0AB6007F39D7 /* CustomNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		E879BCBE2BDD09E5007F39D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E879BCC12BDD09E5007F39D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E879BCC32BDD09E5007F39D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E879BCCA2BDD0AB6007F39D7 /* CallService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallService.swift; sourceTree = "<group>"; };
+		E879BCCB2BDD0AB6007F39D7 /* CallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		E879BCCC2BDD0AB6007F39D7 /* ExtraWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraWindow.swift; sourceTree = "<group>"; };
+		E879BCCE2BDD0AB6007F39D7 /* UXDeivce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXDeivce.swift; sourceTree = "<group>"; };
+		E879BCCF2BDD0AB6007F39D7 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E879BCD02BDD0AB6007F39D7 /* ViewController+Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Rotation.swift"; sourceTree = "<group>"; };
+		E879BCD12BDD0AB6007F39D7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E879BCD22BDD0AB6007F39D7 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		E879BCD32BDD0AB6007F39D7 /* MainAppWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAppWindow.swift; sourceTree = "<group>"; };
+		E879BCD42BDD0AB6007F39D7 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,8 @@
 		E879BCB42BDD09E4007F39D7 /* ZWindowDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E879BCC92BDD0AB6007F39D7 /* Call */,
+				E879BCCD2BDD0AB6007F39D7 /* Main */,
 				E879BCB52BDD09E4007F39D7 /* AppDelegate.swift */,
 				E879BCB72BDD09E4007F39D7 /* SceneDelegate.swift */,
 				E879BCB92BDD09E4007F39D7 /* ViewController.swift */,
@@ -65,6 +87,30 @@
 				E879BCC32BDD09E5007F39D7 /* Info.plist */,
 			);
 			path = ZWindowDemo;
+			sourceTree = "<group>";
+		};
+		E879BCC92BDD0AB6007F39D7 /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				E879BCCA2BDD0AB6007F39D7 /* CallService.swift */,
+				E879BCCB2BDD0AB6007F39D7 /* CallViewController.swift */,
+				E879BCCC2BDD0AB6007F39D7 /* ExtraWindow.swift */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		E879BCCD2BDD0AB6007F39D7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E879BCCE2BDD0AB6007F39D7 /* UXDeivce.swift */,
+				E879BCCF2BDD0AB6007F39D7 /* DetailViewController.swift */,
+				E879BCD02BDD0AB6007F39D7 /* ViewController+Rotation.swift */,
+				E879BCD12BDD0AB6007F39D7 /* MainViewController.swift */,
+				E879BCD22BDD0AB6007F39D7 /* SubViewController.swift */,
+				E879BCD32BDD0AB6007F39D7 /* MainAppWindow.swift */,
+				E879BCD42BDD0AB6007F39D7 /* CustomNavigationController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +184,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E879BCDD2BDD0AB6007F39D7 /* MainAppWindow.swift in Sources */,
+				E879BCDA2BDD0AB6007F39D7 /* ViewController+Rotation.swift in Sources */,
 				E879BCBA2BDD09E4007F39D7 /* ViewController.swift in Sources */,
+				E879BCDC2BDD0AB6007F39D7 /* SubViewController.swift in Sources */,
+				E879BCD52BDD0AB6007F39D7 /* CallService.swift in Sources */,
 				E879BCB62BDD09E4007F39D7 /* AppDelegate.swift in Sources */,
+				E879BCD62BDD0AB6007F39D7 /* CallViewController.swift in Sources */,
+				E879BCD72BDD0AB6007F39D7 /* ExtraWindow.swift in Sources */,
 				E879BCB82BDD09E4007F39D7 /* SceneDelegate.swift in Sources */,
+				E879BCD82BDD0AB6007F39D7 /* UXDeivce.swift in Sources */,
+				E879BCD92BDD0AB6007F39D7 /* DetailViewController.swift in Sources */,
+				E879BCDB2BDD0AB6007F39D7 /* MainViewController.swift in Sources */,
+				E879BCDE2BDD0AB6007F39D7 /* CustomNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

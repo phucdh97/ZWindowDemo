@@ -180,8 +180,13 @@ class CallViewController: UIViewController {
     private func addMyselfToWindow() {
     
         if localWindow == nil {
-            localWindow = ExtraWindow(frame: UIScreen.main.bounds)
-            localWindow?.rootViewController = self
+            
+            if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+                localWindow = ExtraWindow(windowScene: windowScene)
+                localWindow?.rootViewController = self
+            }
+            
+
         }
         localWindow?.isHidden = false
         localWindow?.windowLevel = UIWindow.Level(rawValue: UIWindow.Level.alert.rawValue + 1)

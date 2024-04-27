@@ -28,6 +28,10 @@ class ExtraWindow: UIWindow {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override init(windowScene: UIWindowScene) {
+        super.init(windowScene: windowScene)
+    }
+    
     override func makeKey() {
         print("ExtraWindow makeKey ")
         super.makeKey()
